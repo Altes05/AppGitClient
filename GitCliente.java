@@ -9,6 +9,11 @@ package Practicas;
  * @author altalopa
  */
 public class GitCliente {
+    public String toString(){
+        return "GitClient(" + "cliente" + cliente + ", version" + version + ", sistemaOper "+ sistemaOper + ", licencia" + licencia + ')';
+    }
+            
+    }
     private String cliente;
     private String version;
     private String sistemaOper;
